@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    char letter, farah, shazia, shoaib, zohaib;
+    string next2;
+    cout << "Enter the first letter of your name: \n";
+    cin >> letter;
+    if (letter=='f' || letter=='F'){
+        cout << "Farah!";
+    }
+    else if (letter=='z' || letter=='Z'){
+        cout << "Zohaib!";
+    }
+    else if (letter=='s' || letter=='S'){
+        cout << "Enter next two letters of your name after S: \n S";
+        cin >> next2;
+        if (next2=="ho" || next2=="Ho" || next2 == "hO" || next2 == "HO"){
+            cout << "Shoaib!";}
+            else if (next2 == "ha" || next2 == "Ha" || next2 == "hA" || next2 == "HA"){
+                cout << "Shazia!";
+            }
+        }
+    
+    
+    else {
+        cout << "Who are you!?";
+    }
+    
+    
+    
+    
+    
+    return 0;
+}
